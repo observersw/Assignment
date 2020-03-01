@@ -38,42 +38,41 @@ section {
 }
 
 #chicken {
-	border-left: .5px solid white;
-  border-bottom: .5px solid white;
-	width: 30%;
-	margin-left: 70%;
+	text-align: center;
+	width: auto;
 	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 5px;
 	color: white;
 	background-color:#D2691E;
 }
 
 #beef {
-	border-left: .5px solid white;
+	/*border-left: .5px solid white;
   border-bottom: .5px solid white;
 	width: 30%;
-	margin-left: 70%;
+	margin-left: 70%*/
+	text-align: center;
+	width: auto;
 	font-size: 125%;
-	margin-bottom: 0;
+	/*margin-bottom: 0;
 	margin-top: 0;
-	padding: 5px;
+	padding: 5px;*/
 	color: white;
 	background-color: #D2691E;
 }
 
 #sushi {
-	border-left: .5px solid white;
+	/*border-left: .5px solid white;
   border-bottom: .5px solid white;
 	width: 30%;
-	margin-left: 70%;
+	margin-left: 70%*/
+	text-align: center;
+	width: auto;
 	font-size: 125%;
-	margin-bottom: 0;
+	/*margin-bottom: 0;
 	margin-top: 0;
+	padding: 5px;*/
 	background-color: #D2691E;
 	color: white;
-	padding: 5px;
 }
 
 #chicken-div {
