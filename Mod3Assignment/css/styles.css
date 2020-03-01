@@ -1,1 +1,133 @@
-dsadsad
+/* Base Styles */
+
+* { /*Setting the overall default styling for the file*/
+	box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {/*Setting the styling for h1*/
+	color: #663300;
+	font-family: 'Titillium Web';
+}
+
+body {
+	background-color: #FEF5CA;
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+	border:	.5px solid #D2691E;
+	background-color: 008B8B;
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: auto;
+}
+
+#chicken {
+	border-left: .5px solid white;
+  border-bottom: .5px solid white;
+	width: 30%;
+	margin-left: 70%;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	color: white;
+	background-color:#D2691E;
+}
+
+#beef {
+	border-left: .5px solid white;
+  border-bottom: .5px solid white;
+	width: 30%;
+	margin-left: 70%;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	color: white;
+	background-color: #D2691E;
+}
+
+#sushi {
+	border-left: .5px solid white;
+  border-bottom: .5px solid white;
+	width: 30%;
+	margin-left: 70%;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #D2691E;
+	color: white;
+	padding: 5px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #ffcc00;
+  color: #FFFFFF;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #D2691E;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color:#FEF5CA;}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+hr {
+	margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  border: 0;
+  border: .7px solid white;
+}
+
+.item {
+  color: #D2691E;
+  font-size: 1.2em;
+}
